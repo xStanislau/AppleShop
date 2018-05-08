@@ -10,9 +10,9 @@ gulp.task('clean', () => {
         .pipe(clean());
 });
 
-gulp.task('ulify', () => {
-    gulp.src('./app/src/main.js')
-        .pipe(imageMin())
+gulp.task('uglify', () => {
+    gulp.src('./app/src/js/main.js')
+        .pipe(uglify())
         .pipe(gulp.dest('./app/build/js'))
 });
 
@@ -47,5 +47,5 @@ gulp.task('watch', () => {
 
 gulp.task('default', ['server', 'watch']);
 gulp.task('build', function(cb) {
-    runSequence('clean', ['css', 'images', 'ulify'], cb);
+    runSequence('clean', ['css', 'images', 'uglify'], cb);
 });
