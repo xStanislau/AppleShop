@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>AppleShop</title>
+  <meta name="description" content="AppleShop">
+  <meta name="keywords" content="AppleShop">
+  <meta name="author" content="Stanislau Hancharou">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./src/css/fonts.css">
+  <link rel="stylesheet" href="./src/css/main.css">
+
+  <script src="https://code.jquery.com/jquery-1.8.0.min.js" integrity="sha256-jFdOCgY5bfpwZLi0YODkqNXQdIxKpm6y5O/fy0baSzE="
+    crossorigin="anonymous"></script>
+    <script src="./src/js/main.js"></script>
+  <!--[if lt IE 7]>
+    <p class="browsehappy">Вы используете <strong>устаревший</strong> браузер. Пожалуйста <a href="http://browsehappy.com/">обновите</a> его.</p>
+    <![endif]-->
+
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__inner clearfix">
+          <div class="logo">
+            <a href="index.html">
+              <img src="./build/images/logo.png" alt="logo">
+            </a>
+          </div>
+          <div class="header-contacts">
+            <ul class="header-contacts__list">
+              <li class="header-contacts__list-item">
+                <a class="header-contacts__list-link" href="tel:+79213221232:">
+                  <span class="header-contacts__list-link-text_small-blue">+7 (921)</span> 322 12 32</a>
+              </li>
+              <li class="header-contacts__list-item">
+                <a class="header-contacts__list-link" href="mailto:gmail.com">manager@company.com</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <nav class="header-nav">
+          <ul class="header-nav__list">
+            <li class="header-nav__item">
+              <a href="#" class="header-nav__link">Мобильный телефоны</a>
+            </li>
+            <li class="header-nav__item">
+              <a href="#" class="header-nav__link header-nav__link_active ">Планшеты</a>
+            </li>
+            <li class="header-nav__item">
+              <a href="#" class="header-nav__link">Mp3 плееры</a>
+            </li>
+            <li class="header-nav__item">
+              <a href="#" class="header-nav__link">Персональные компьютеры</a>
+            </li>
+            <li class="header-nav__item">
+              <a href="#" class="header-nav__link">Ноутбуки</a>
+            </li>
+            <li class="header-nav__item">
+              <a href="#" class="header-nav__link">Apple TV</a>
+            </li>
+            <li class="header-nav__item">
+              <a href="#" class="header-nav__link header-nav__link_no-bgc">Акссесуары</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <nav class="secondary-nav clearfix">
+        <div class="breadcrumbs ">
+          <ul class="breadcrumbs__list">
+            <li class="breadcrumbs__list-item">
+              <a href="#" class="breadcrumbs__list-link">Главная</a>
+            </li>
+            <li class="breadcrumbs__list-item breadcrumbs__list-item_active">
+              <a href="#" class="breadcrumbs__list-link">Каталог</a>
+            </li>
+          </ul>
+        </div>
+        <div class="pages-products-nav ">
+          <ul class="pages-products-nav__list">
+            <li class="pages-products-nav__item">
+              <a class="pages-products-nav__link pages-products-nav__link_active" href="#">1</a>
+            </li>
+            <li class="pages-products-nav__item">
+              <a class="pages-products-nav__link" href="#">2</a>
+            </li>
+            <li class="pages-products-nav__item">
+              <a class="pages-products-nav__link" href="#">3</a>
+            </li>
+            <li class="pages-products-nav__item">
+              <a class="pages-products-nav__link" href="#">4</a>
+            </li>
+            <li class="pages-products-nav__item">
+              <a class="pages-products-nav__link" href="#">5</a>
+            </li>
+            <li class="pages-products-nav__item">
+              <a class="pages-products-nav__link" href="#">Все</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="content clearfix">
+        <aside class="sidebar clearfix">
+          <ul class="sidebar__list">
+            <li class="sidebar__item">
+              <a href="#" class="sidebar__link">iPhone</a>
+              <ul class="sidebar__sub-list">
+                <li class="sidebar__sub-item">
+                  <a href="#" class="sidebar__sub-link">iPhone 4s</a>
+                </li>
+                <li class="sidebar__sub-item">
+                  <a href="#" class="sidebar__sub-link">iPhone 5</a>
+                </li>
+                <li class="sidebar__sub-item">
+                  <a href="#" class="sidebar__sub-link">iPhone 5s с эксклюзивным дизайном</a>
+                </li>
+                <li class="sidebar__sub-item">
+                  <a href="#" class="sidebar__sub-link">iPhone 6</a>
+                </li>
+                <li class="sidebar__sub-item">
+                  <a href="#" class="sidebar__sub-link">iPhone 5 plus</a>
+                </li>
+              </ul>
+            </li>
+            <li class="sidebar__item">
+              <a href="" class="sidebar__link">iPad</a>
+              <ul class="sidebar__sub-list">
+                <li class="sidebar__sub-item">
+                  <a href="#" class="sidebar__sub-link">iPhone 4s</a>
+                </li>
+                <li class="sidebar__sub-item">
+                  <a href="#" class="sidebar__sub-link">iPhone 5</a>
+                </li>
+                <li class="sidebar__sub-item">
+                  <a href="#" class="sidebar__sub-link">iPhone 5s с эксклюзивным дизайном</a>
+                </li>
+                <li class="sidebar__sub-item">
+                  <a href="#" class="sidebar__sub-link">iPhone 6</a>
+                </li>
+                <li class="sidebar__sub-item">
+                  <a href="#" class="sidebar__sub-link">iPhone 5 plus</a>
+                </li>
+              </ul>
+            </li>
+            <li class="sidebar__item">
+              <a href="" class="sidebar__link">iMac</a>
+              <ul class="sidebar__sub-list">
+                <li class="sidebar__sub-item">
+                  <a href="#" class="sidebar__sub-link">iPhone 4s</a>
+                </li>
+                <li class="sidebar__sub-item">
+                  <a href="#" class="sidebar__sub-link">iPhone 5</a>
+                </li>
+                <li class="sidebar__sub-item">
+                  <a href="#" class="sidebar__sub-link">iPhone 5s с эксклюзивным дизайном</a>
+                </li>
+                <li class="sidebar__sub-item">
+                  <a href="#" class="sidebar__sub-link">iPhone 6</a>
+                </li>
+                <li class="sidebar__sub-item">
+                  <a href="#" class="sidebar__sub-link">iPhone 5 plus</a>
+                </li>
+              </ul>
+            </li>
+            <li class="sidebar__item">
+              <a href="" class="sidebar__link">Macbook</a>
+              <ul class="sidebar__sub-list">
+                <li class="sidebar__sub-item">
+                  <a href="#" class="sidebar__sub-link">iPhone 4s</a>
+                </li>
+                <li class="sidebar__sub-item">
+                  <a href="#" class="sidebar__sub-link">iPhone 5</a>
+                </li>
+                <li class="sidebar__sub-item">
+                  <a href="#" class="sidebar__sub-link">iPhone 5s с эксклюзивным дизайном</a>
+                </li>
+                <li class="sidebar__sub-item">
+                  <a href="#" class="sidebar__sub-link">iPhone 6</a>
+                </li>
+                <li class="sidebar__sub-item">
+                  <a href="#" class="sidebar__sub-link">iPhone 5 plus</a>
+                </li>
+              </ul>
+            </li>
+            <li class="sidebar__item">
+              <a href="" class="sidebar__link">iPod</a>
+              <ul class="sidebar__sub-list">
+                <li class="sidebar__sub-item">
+                  <a href="#" class="sidebar__sub-link">iPhone 4s</a>
+                </li>
+                <li class="sidebar__sub-item">
+                  <a href="#" class="sidebar__sub-link">iPhone 5</a>
+                </li>
+                <li class="sidebar__sub-item">
+                  <a href="#" class="sidebar__sub-link">iPhone 5s с эксклюзивным дизайном</a>
+                </li>
+                <li class="sidebar__sub-item">
+                  <a href="#" class="sidebar__sub-link">iPhone 6</a>
+                </li>
+                <li class="sidebar__sub-item">
+                  <a href="#" class="sidebar__sub-link">iPhone 5 plus</a>
+                </li>
+              </ul>
+            </li>
+            <li class="sidebar__item">
+              <a href="" class="sidebar__link">Другое</a>
+              <ul class="sidebar__sub-list">
+                <li class="sidebar__sub-item">
+                  <a href="#" class="sidebar__sub-link">iPhone 4s</a>
+                </li>
+                <li class="sidebar__sub-item">
+                  <a href="#" class="sidebar__sub-link">iPhone 5</a>
+                </li>
+                <li class="sidebar__sub-item">
+                  <a href="#" class="sidebar__sub-link">iPhone 5s с эксклюзивным дизайном</a>
+                </li>
+                <li class="sidebar__sub-item">
+                  <a href="#" class="sidebar__sub-link">iPhone 6</a>
+                </li>
+                <li class="sidebar__sub-item">
+                  <a href="#" class="sidebar__sub-link">iPhone 5 plus</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </aside>
+        <div class="main-content">
+          <section class="products">
+            <ul class="products__list">
+              <li class="products__item">
+                <a href="#" class="products__link">
+                  <div class="products__img-wrapper">
+                    <img class="products__img" src="./build/images/Thunderbolt_display.png" alt="product1">
+                  </div>
+                  <div class="products__about">
+                    <h3 class="products__header">Apple Thunderbolt 27"</h3>
+                    <p class="products__text">Артикул: 42787825, Опция: включена, Цвет: серебристый, Размер: 1280*1245*90, Вес: 9 кг</p>
+                  </div>
+                </a>
+              </li>
+              <li class="products__item">
+                <a href="#" class="products__link">
+                  <div class="products__img-wrapper">
+                    <img class="products__img" src="./build/images/iMac.png" alt="product-2">
+                  </div>
+                  <div class="products__about">
+                    <h3 class="products__header">Apple Thunderbolt 27"</h3>
+                    <p class="products__text">Артикул: 42787825, Опция: включена, Цвет: серебристый, Размер: 1280*1245*90, Вес: 9 кг</p>
+                  </div>
+                </a>
+              </li>
+              <li class="products__item">
+                <a href="#" class="products__link">
+                  <div class="products__img-wrapper">
+                    <img class="products__img" src="./build/images/Thunderbolt_display.png" alt="product-3">
+                  </div>
+                  <div class="products__about">
+                    <h3 class="products__header">Apple Thunderbolt 27"</h3>
+                    <p class="products__text">Артикул: 42787825, Опция: включена, Цвет: серебристый, Размер: 1280*1245*90, Вес: 9 кг</p>
+                  </div>
+                </a>
+              </li>
+              <li class="products__item">
+                <a href="#" class="products__link">
+                  <div class="products__img-wrapper">
+                    <img class="products__img" src="./build/images/Thunderbolt_display.png" alt="product-4">
+                  </div>
+                  <div class="products__about">
+                    <h3 class="products__header">Apple Thunderbolt 27"</h3>
+                    <p class="products__text">Артикул: 42787825, Опция: включена, Цвет: серебристый, Размер: 1280*1245*90, Вес: 9 кг</p>
+                  </div>
+                </a>
+              </li>
+              <li class="products__item">
+                <a href="#" class="products__link">
+                  <div class="products__img-wrapper">
+                    <img class="products__img" src="./build/images/Thunderbolt_display.png" alt="product-5">
+                  </div>
+                  <div class="products__about">
+                    <h3 class="products__header">Apple Thunderbolt 27"</h3>
+                    <p class="products__text">Артикул: 42787825, Опция: включена, Цвет: серебристый, Размер: 1280*1245*90, Вес: 9 кг</p>
+                  </div>
+                </a>
+              </li>
+              <li class="products__item">
+                <a href="#" class="products__link">
+                  <div class="products__img-wrapper">
+                    <img class="products__img" src="./build/images/Thunderbolt_display.png" alt="product-6">
+                  </div>
+                  <div class="products__about">
+                    <h3 class="products__header">Apple Thunderbolt 27"</h3>
+                    <p class="products__text">Артикул: 42787825, Опция: включена, Цвет: серебристый, Размер: 1280*1245*90, Вес: 9 кг</p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </section>
+          <article class="about">
+            <h1 class="about__header">Пара слов о магазине</h1>
+            <p class="about__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta praesentium sunt libero, laboriosam, voluptate
+              sit aspernatur tenetur nulla labore inventore dolor! At doloremque eos voluptatum sint facere sequi, commodi
+              ex vitae accusamus pariatur ipsam rem obcaecati reiciendis, ullam accusantium aliquid consectetur expedita
+              maxime ab ducimus nostrum, aperiam est. Magni asperiores doloribus rerum voluptatum, excepturi ratione ullam,
+              perspiciatis at ex molestias fugiat ab ipsum vel dolores provident tempore suscipit praesentium, quo deserunt
+              libero. Commodi nostrum impedit natus sint error quis est, amet earum deleniti. Vitae laborum in fuga laboriosam
+              ea earum doloribus reprehenderit doloremque ullam error ex quibusdam, beatae culpa. Amet cupiditate neque commodi
+              qui quam aliquid vel, ducimus eligendi repellat necessitatibus, quis odio laudantium recusandae laborum provident,
+              consequuntur odit, nulla ad quos porro veniam eius perferendis dolorum! Ab, aperiam, nemo!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor neque quas eos pariatur maiores deserunt ea magnam
+              ratione, architecto perferendis qui consequatur soluta fugiat eligendi, quae facere quisquam repellat. Ab sed
+              distinctio rem, expedita, veniam porro, repudiandae quis asperiores doloremque minus dolor nemo nisi quas,
+              eius facere culpa? Repellat veniam ullam atque dicta, recusandae nisi quasi voluptas at nulla porro, accusantium
+              fuga similique quae, est dolorem? Placeat ducimus harum eos molestiae, adipisci fuga enim repellat, optio voluptas
+              voluptates quae facere, laboriosam non architecto labore. Iure aperiam itaque, eaque accusantium quaerat sequi,
+              nihil reiciendis quia alias incidunt, doloremque ullam id voluptas, assumenda accusamus atque temporibus optio
+              aliquam perspiciatis debitis officiis mollitia. Harum quidem error quod, expedita porro nesciunt quisquam fugit
+              quo reiciendis? In dicta molestiae dolores incidunt similique ipsam nisi, eligendi.</p>
+          </article>
+          <button class="scroll-top-btn" type="button">вверх</button>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="footer__inner">
+        <div class="footer__logo-wrapper">
+          <img class="footer__logo" src="./build/images/footer_logo.png" alt=" ">
+        </div>
+        <ul class="footer__nav">
+          <li class="footer__nav-menu">
+            <ul class="footer__nav-list">
+              <li class="footer__nav-item">О магазине</li>
+              <li class="footer__nav-item">
+                <a class="footer__nav-link" href="#">О нас</a>
+              </li>
+              <li class="footer__nav-item">
+                <a class="footer__nav-link" href="#">Наши цены</a>
+              </li>
+              <li class="footer__nav-item">
+                <a class="footer__nav-link" href="#">Наши скидки</a>
+              </li>
+              <li class="footer__nav-item">
+                <a class="footer__nav-link" href="#">Акции</a>
+              </li>
+            </ul>
+          </li>
+          <li class="footer__nav-menu">
+            <ul class="footer__nav-list">
+              <li class="footer__nav-item">Каталог</li>
+              <li class="footer__nav-item">
+                <a class="footer__nav-link" href="#">Смартфоны</a>
+              </li>
+              <li class="footer__nav-item">
+                <a class="footer__nav-link" href="#">Планшеты</a>
+              </li>
+              <li class="footer__nav-item">
+                <a class="footer__nav-link" href="#">Компьютеры</a>
+              </li>
+              <li class="footer__nav-item">
+                <a class="footer__nav-link" href="#">Аксессуары</a>
+              </li>
+            </ul>
+          </li>
+          <li class="footer__nav-menu">
+            <ul class="footer__nav-list">
+              <li class="footer__nav-item">Контакты</li>
+              <li class="footer__nav-item">
+                <a class="footer__nav-link" href="#">Телефоны</a>
+              </li>
+              <li class="footer__nav-item">
+                <a class="footer__nav-link" href="#">Адреса</a>
+              </li>
+              <li class="footer__nav-item">
+                <a class="footer__nav-link" href="#">Карта проезда</a>
+              </li>
+              <li class="footer__nav-item">
+                <a class="footer__nav-link" href="#">Обратная связь</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <div class="footer__socials">
+          <ul class="footer__market-list">
+            <li class="footer__market-links apple-store">
+              <a href="#">
+                <img src="./build/images/apple-store.png" alt="apple-store">
+              </a>
+            </li>
+            <li class="footer__market-links google-play">
+              <a href="#">
+                <img src="./build/images/google-play.png" alt="google-play">
+              </a>
+            </li>
+          </ul>
+          <ul class="footer__social-menu">
+            <li class="footer__social-item vk">
+              <a class="footer__social-link" href="#"></a>
+            </li>
+            <li class="footer__social-item fb">
+              <a class="footer__social-link" href="#"></a>
+            </li>
+            <li class="footer__social-item tw">
+              <a class="footer__social-link" href="#"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+
+</html>
