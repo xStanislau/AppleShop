@@ -5,9 +5,15 @@ const imageMin = require('gulp-imagemin');
 const clean = require('gulp-clean');
 const runSequence = require('run-sequence');
 const uglify = require('gulp-uglify');
+
 gulp.task('clean', () => {
     return gulp.src('./app/build', {read: false})
         .pipe(clean());
+});
+
+gulp.task('copy', () => {
+    gulp.src('./app/src/fonts/**')
+    .pipe(gulp.dest('./app/build/fonts'))
 });
 
 gulp.task('uglify', () => {
@@ -47,5 +53,5 @@ gulp.task('watch', () => {
 
 gulp.task('default', ['server', 'watch']);
 gulp.task('build', function(cb) {
-    runSequence('clean', ['css', 'images', 'uglify'], cb);
+    runSequence('clean', ['css', 'images', 'uglify', 'copy'], cb);
 });
