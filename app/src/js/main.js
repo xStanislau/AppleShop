@@ -16,8 +16,7 @@ $(document).ready(function () {
 		}
 
 		content.stop(true, true).slideUp(duration);
-		$this
-		.removeClass('active');
+		$this.removeClass('active');
 
 	});
 
